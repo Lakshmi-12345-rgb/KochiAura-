@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Montserrat:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom black-and-gold luxury glow classes */
+.text-shadow-gold {
+  text-shadow: 0 0 12px rgba(212, 175, 55, 0.25);
+}
+
+.shadow-gold-heavy {
+  box-shadow: 0 0 50px rgba(212, 175, 55, 0.12);
+}
+
+/* Custom scrollbar matching dark luxury style */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 5px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: #090909;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 4px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}

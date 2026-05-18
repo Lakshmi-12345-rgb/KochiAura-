@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kochi-aura.com/sitemap.xml
